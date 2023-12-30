@@ -21,7 +21,6 @@ def get_distribution(request):
                 "Die A":i,
             }
             distribution_list.append(combination_map)
-            print("Combination Map:", combination_map)
     return JsonResponse({"distribution": distribution_list})
 
 @require_http_methods(["GET"])

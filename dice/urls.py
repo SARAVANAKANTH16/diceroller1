@@ -19,7 +19,7 @@ from django.urls import path
 from .views import get_total_combinations, get_distribution, get_probability
 
 urlpatterns =[
-    path('total-combinations/', get_total_combinations, name='total_combinations'),
+    path('total-combinations/', get_total_combinations, name='total-combinations'),
     path('distribution/', get_distribution, name='distribution'),
     path('probability/', get_probability, name='probability'),
 ]
